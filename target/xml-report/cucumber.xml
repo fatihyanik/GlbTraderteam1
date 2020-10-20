@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="31.87">
+<testcase classname="Login feature" name="TC01_user logins with valid credentials" time="21.928">
+<system-out><![CDATA[Given user is on the glbtraderlogin page....................................passed
+And user clicks on Seller Join Now button...................................passed
+And user clicks on Agent Seller box.........................................passed
+And user enters a name "Team1"..............................................passed
+And user enters an email "team1@gmail.com"..................................passed
+And user enters a subdomain "team1".........................................passed
+And user enters a mobile number "05050505050"...............................passed
+And user selects a country..................................................passed
+And user enters a state "Germany"...........................................passed
+And user enters a city "Leipzig"............................................passed
+And user enters an address "Bahnhof"........................................passed
+And user enters an enter postal code "15600"................................passed
+And user selects categories.................................................passed
+And user enters a password "12345"..........................................passed
+Then user clicks on Registration............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="TC01_user logins with valid credentials 2" time="4.677">
+<system-out><![CDATA[Given user is on the glbtraderlogin page....................................passed
+And user clicks on Seller Join Now button...................................passed
+And user clicks on Agent Seller box.........................................passed
+And user enters a name "Fatih"..............................................passed
+And user enters an email "fatih07@gmail.com"................................passed
+And user enters a subdomain "team1".........................................passed
+And user enters a mobile number "01010010101"...............................passed
+And user selects a country..................................................passed
+And user enters a state "Germany"...........................................passed
+And user enters a city "Berlin".............................................passed
+And user enters an address "Bahnhof"........................................passed
+And user enters an enter postal code "15600"................................passed
+And user selects categories.................................................passed
+And user enters a password "12345"..........................................passed
+Then user clicks on Registration............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="TC01_user logins with valid credentials 3" time="4.498">
+<system-out><![CDATA[Given user is on the glbtraderlogin page....................................passed
+And user clicks on Seller Join Now button...................................passed
+And user clicks on Agent Seller box.........................................passed
+And user enters a name "Ihsan"..............................................passed
+And user enters an email "ihsan07@gmail.com"................................passed
+And user enters a subdomain "team1".........................................passed
+And user enters a mobile number "03030030303"...............................passed
+And user selects a country..................................................passed
+And user enters a state "Germany"...........................................passed
+And user enters a city "Berlin".............................................passed
+And user enters an address "Bahnhof"........................................passed
+And user enters an enter postal code "15600"................................passed
+And user selects categories.................................................passed
+And user enters a password "12345"..........................................passed
+Then user clicks on Registration............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

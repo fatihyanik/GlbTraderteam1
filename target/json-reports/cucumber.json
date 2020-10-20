@@ -1,0 +1,770 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-20T22:26:31.180Z",
+        "line": 23,
+        "name": "TC01_user logins with valid credentials",
+        "description": "",
+        "id": "login-feature;tc01-user-logins-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16592000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the glbtraderlogin page",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_is_on_the_glbtraderlogin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1908000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Seller Join Now button",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_clicks_on_Seller_Join_Now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Agent Seller box",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_clicks_on_Agent_Seller_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters a name \"Team1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Team1\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 430000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters an email \"team1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"team1@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_an_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters a subdomain \"team1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"team1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_subdomain(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters a mobile number \"05050505050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"05050505050\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_mobile_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects a country",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_selects_a_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters a state \"Germany\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Germany\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_state(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters a city \"Leipzig\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Leipzig\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_city(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters an address \"Bahnhof\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bahnhof\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_an_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 380000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters an enter postal code \"15600\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15600\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_an_enter_postal_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user selects categories",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_selects_categories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters a password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on Registration",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_clicks_on_Registration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@glbtraderlogin"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T22:26:53.134Z",
+        "line": 24,
+        "name": "TC01_user logins with valid credentials",
+        "description": "",
+        "id": "login-feature;tc01-user-logins-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1109000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the glbtraderlogin page",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_is_on_the_glbtraderlogin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 872000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Seller Join Now button",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_clicks_on_Seller_Join_Now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Agent Seller box",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_clicks_on_Agent_Seller_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters a name \"Fatih\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fatih\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters an email \"fatih07@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fatih07@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_an_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters a subdomain \"team1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"team1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_subdomain(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters a mobile number \"01010010101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01010010101\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_mobile_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects a country",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_selects_a_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters a state \"Germany\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Germany\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_state(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters a city \"Berlin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Berlin\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_city(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters an address \"Bahnhof\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bahnhof\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_an_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters an enter postal code \"15600\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15600\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_an_enter_postal_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user selects categories",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_selects_categories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters a password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on Registration",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_clicks_on_Registration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@glbtraderlogin"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T22:26:57.815Z",
+        "line": 25,
+        "name": "TC01_user logins with valid credentials",
+        "description": "",
+        "id": "login-feature;tc01-user-logins-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 923000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the glbtraderlogin page",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_is_on_the_glbtraderlogin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 653000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Seller Join Now button",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_clicks_on_Seller_Join_Now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Agent Seller box",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_clicks_on_Agent_Seller_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters a name \"Ihsan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ihsan\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 390000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters an email \"ihsan07@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ihsan07@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_an_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters a subdomain \"team1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"team1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_subdomain(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters a mobile number \"03030030303\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"03030030303\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_mobile_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects a country",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_selects_a_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 347000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters a state \"Germany\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Germany\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_state(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters a city \"Berlin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Berlin\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_city(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters an address \"Bahnhof\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bahnhof\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_an_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters an enter postal code \"15600\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15600\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_an_enter_postal_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user selects categories",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_selects_categories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 451000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters a password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_enters_a_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on Registration",
+            "match": {
+              "location": "stepdefinitions.GlbTraderLoginStepDefinitions.user_clicks_on_Registration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@glbtraderlogin"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/glbtrader_login.feature",
+    "tags": [
+      {
+        "name": "@glbtraderlogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
